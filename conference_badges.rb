@@ -22,7 +22,7 @@ end
 rooms
 end
 
-def printer
+def printer(array)
   batch_badge_creator.each do |assign|
     puts assign
   end
